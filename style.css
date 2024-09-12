@@ -1,0 +1,59 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to right, #00f, #0af); /* Blue gradient */
+    padding: 10px 0;
+    transition: background 0.3s ease;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+}
+
+section {
+    padding: 100px;
+    height: 100vh;
+    text-align: center;
+}
+
+section h1 {
+    margin-bottom: 20px;
+}
+
+/* Scroll effect */
+.scrolled {
+    background: linear-gradient(to right, #005, #0af); /* Darker gradient when scrolled */
+}
